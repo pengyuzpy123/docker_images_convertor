@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub fine
       run: |
-         skopeo copy docker://docker.io/neo4j:4.4.38-enterprise docker://registry.cn-hangzhou.aliyuncs.com/unisound-hub/neo4j:4.4.38-enterprise
+         skopeo copy docker://docker.io/alpine:3.19 docker://registry.cn-hangzhou.aliyuncs.com/unisound-hub/alpine:3.19
          
          
          
