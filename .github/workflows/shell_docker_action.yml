@@ -27,7 +27,8 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub fine
       run: |
-         skopeo copy docker://docker.io/python:3.12-slim-bookworm docker://registry.cn-hangzhou.aliyuncs.com/unisound-hub/python:3.12-slim-bookworm
+            skopeo copy docker://docker.io/python:3.12-slim-bookworm docker://registry.cn-hangzhou.aliyuncs.com/unisound-hub/python:3.12-slim-bookworm
+
          
          
          
